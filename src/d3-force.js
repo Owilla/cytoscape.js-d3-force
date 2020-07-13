@@ -193,7 +193,7 @@ class ContinuousLayout {
         .force('many-body', _manyBody)
         .force('x', _x)
         .force('y', _y)
-        .force("center", _center);
+        //.force("center", _center);
       _radius && l.simulation.force('radius', _radius);
       l.simulation
         .on("tick", () => {
